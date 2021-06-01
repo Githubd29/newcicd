@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image:  kubernet8s/hello
+        image:  866679018980.dkr.ecr.us-east-1.amazonaws.com/ecr-docker-repo
         imagePullPolicy: Always
         ports:
         - containerPort: 80
